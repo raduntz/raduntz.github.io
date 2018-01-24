@@ -1,0 +1,39 @@
+body {
+	background-color: #ffffff;
+	color: #f2f2f2;
+}
+
+.bg-1 {
+	background-color: #19b491;
+	color: #f3f3f3;
+}
+
+.container-fluid {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.bg-2 {
+	background-color: #3e4553;
+	/*color: #36454f;*/
+	color: #f2f2f2;
+}
+
+.bg-3 {
+	/*background-color: #19b491;*/
+	color: #36454f;
+}
+
+.bg-4 {
+	background-color: #19b491;
+	color: #f3f3f3;
+}
+
+.bg-5 {
+	background-color: #3e4553;
+	color: #f2f2f2 !important;
+}
+
+.text-primary {
+	color: #f2f2f2 !important;
+}
