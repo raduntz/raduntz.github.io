@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+		<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="index.css">
+
+	<link rel="stylesheet" href="fullPagejs/jquery.fullPage.css">
+
+	<!-- Font Awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script src="fullPagejs/jquery.fullPage.js"></script>
+
+	<title>30Days Hamburgueria</title>
+</head>
+<script>
+	$(document).ready(function() {
+		$('#fullpage').fullpage({
+			anchors:['inicio', 'detalhes']
+		});
+	});
+</script>
+<body>
+<div id="fullpage">
+	<div data-anchor="inicio" class="section bg1 text-center">
+		
+		<h1>Inauguração 20/02/2018</h1>
+		<br>
+		<a style="color: #d1bfad;" href="#detalhes"><i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i></a>
+
+	</div>
+	<div data-anchor="detalhes" class="section bg2 text-center">
+		<h1>Detalhes</h1>
+		<br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac orci cursus, vehicula nisi nec, aliquam augue. Nunc sit amet tortor sed felis vulputate sollicitudin nec congue velit. Suspendisse potenti.
+		<br>
+		<br><br><br>
+		<div class="row">
+			<div class="col">
+				<img src="img2.jpeg" class="rounded" width="90%"><br>
+			Integer elementum a nisl sed maximus. In arcu sapien, sagittis et auctor id, feugiat ac nunc. Aliquam vehicula efficitur blandit. Mauris velit leo, viverra a pharetra sit amet, pharetra nec turpis.
+			</div>
+			<div class="col">
+				<img src="img3.jpg" class="rounded" width="90%"><br>
+			Vestibulum suscipit lacus vitae elementum accumsan. Nunc malesuada risus id ex commodo porttitor. Phasellus hendrerit nisi sed orci posuere tincidunt.
+			</div>
+			<div class="col">
+				<img src="img4.jpg" class="rounded" width="90%"><br>
+			Aenean euismod vitae nibh convallis luctus. Nulla viverra id lectus sit amet maximus. Aenean ut viverra enim. Nullam tincidunt scelerisque metus quis pulvinar. Suspendisse potenti.
+			</div>
+		</div>
+	</div>
+
+	<div data-anchor="local" class="section bg3 text-center">
+		<h1>Local</h1>
+		<br>
+				<h1>Pipa Street, 123<br>
+				Pyongyang</h1>
+				<br>
+			<div class="map-responsive container">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d70122.04031951222!2d125.74707912463093!3d39.03844540946044!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1516838019981" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+	</div>
+</div>
+
+<nav id="mynavbar" class="custom_nav navbar navbar-expand-md navbar-light fixed-bottom">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a style="color: #d1bfad;" class="nav-link" href="#inicio">Início</a>
+			</li>
+			<li class="nav-item">
+				<a style="color: #d1bfad;" class="nav-link" href="#detalhes">Detalhes</a>
+			</li>
+			<li class="nav-item">
+				<a style="color: #d1bfad;" class="nav-link" href="#local">Local</a>
+			</li>
+
+	</div>
+</nav>
+
+</body>
+</html>

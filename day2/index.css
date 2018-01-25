@@ -1,0 +1,28 @@
+body {
+	background-color: black;
+}
+
+.bg1 {
+	/*background-image: url("img1.jpg");*/
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("img1.jpg");
+	/*opacity: .4;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #d1bfad;
+}
+
+nav {
+	background-color: rgba(0,0,0,0.5);
+
+}
+
+.bg2 {
+	background-color: #272822;
+	color: #d1bfad;
+}
+
+.bg3 {
+	background-color: #2c1510;
+	color: #d1bfad;
+}
