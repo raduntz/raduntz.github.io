@@ -26,7 +26,10 @@
 <script>
 	$(document).ready(function() {
 		$('#fullpage').fullpage({
-			anchors:['inicio', 'detalhes']
+			anchors:['inicio', 'detalhes'],
+			scrollOverflowOptions: {
+				click: true
+			}
 		});
 	});
 </script>
