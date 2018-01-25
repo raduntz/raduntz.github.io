@@ -24,11 +24,10 @@
 	<title>30Days Hamburgueria</title>
 </head>
 <script>
-	var isPhoneDevice = "ontouchstart" in document.documentElement;
-
 	$(document).ready(function() {
-		if(isPhoneDevice){
+		if(screen.width < 480){
 			//mobile
+			return;
 		} else {
 			$('#fullpage').fullpage({
 			anchors:['inicio', 'detalhes']
