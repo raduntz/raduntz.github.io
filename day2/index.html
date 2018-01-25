@@ -25,14 +25,10 @@
 </head>
 <script>
 	$(document).ready(function() {
-		if(screen.width < 480){
-			//mobile
-			return;
-		} else {
 			$('#fullpage').fullpage({
-			anchors:['inicio', 'detalhes']
+			anchors:['inicio', 'detalhes'],
+			responsiveWidth: 500
 		});
-		}
 		
 	});
 </script>
